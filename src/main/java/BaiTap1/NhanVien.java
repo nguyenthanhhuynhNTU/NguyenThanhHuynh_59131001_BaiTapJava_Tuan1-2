@@ -68,12 +68,12 @@ public class NhanVien {
     
     //Xuất thông tin Nhân Viên
     public void getThongTin(){
-        System.out.println("Ten nhan vien: "+ ten);
-        System.out.println("Tuoi: "+ tuoi);
-        System.out.println("Dia chi: "+  diaChi);
-        System.out.println("Tien luong: "+  tienLuong);
-        System.out.println("Tong so gio lam: "+  tongSoGioLam);
-        System.out.println("Thuong: "+  tinhThuong());
+        System.out.println("Ten nhan vien: " + ten);
+        System.out.println("Tuoi: " + tuoi);
+        System.out.println("Dia chi: " +  diaChi);
+        System.out.println("Tien luong: " +  tienLuong);
+        System.out.println("Tong so gio lam: " +  tongSoGioLam);
+        System.out.println("Thuong: " + tinhThuong());
     }
     //Tính thưởng nhân viên
     public double tinhThuong(){

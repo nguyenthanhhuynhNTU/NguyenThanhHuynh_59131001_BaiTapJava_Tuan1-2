@@ -11,9 +11,9 @@ public class SinhVienIT extends SinhVienPoly{
     double diemHtml;
 
     public SinhVienIT() {
-        //
+        //Không tham số
     }
-    //
+    //Có tham số
     public SinhVienIT(String hoTen, String nganh, double diemJava, double diemCss, double diemHtml) {
         super(hoTen, nganh);
         this.diemJava = diemJava;

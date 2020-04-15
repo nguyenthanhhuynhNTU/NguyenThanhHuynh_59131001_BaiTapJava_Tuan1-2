@@ -18,12 +18,30 @@ public abstract class SinhVienPoly {
         this.hoTen = hoTen;
         this.nganh = nganh;
     }
+
+    public String getHoTen() {
+        return hoTen;
+    }
+
+    public String getNganh() {
+        return nganh;
+    }
+
+    public void setHoTen(String hoTen) {
+        this.hoTen = hoTen;
+    }
+
+    public void setNganh(String nganh) {
+        this.nganh = nganh;
+    }
+    
     //Phương thức trừu tượng (abstract)
     public abstract double getDiem();
     
+    //Xét học lực
     public String getHocLuc(){
         if(getDiem()< 5)
-            return "Yeu";
+            return "Yeu"; //Phương thức String -> Trả về giá trị Yếu
         else if(getDiem() < 6.5)
             return "Trung Binh";
         else if(getDiem() < 7.5)

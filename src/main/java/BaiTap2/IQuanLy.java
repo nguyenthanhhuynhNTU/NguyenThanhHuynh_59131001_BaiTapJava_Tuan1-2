@@ -5,6 +5,7 @@
  */
 package BaiTap2;
 import BaiTap1.NhanVien;
+
 public interface IQuanLy {
     //thêm 1 nhân viên vào danh sách
     public void them(NhanVien nv);
